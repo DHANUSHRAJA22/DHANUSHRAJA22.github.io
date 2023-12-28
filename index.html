@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="title">
+       
+        <h1>Amazon</h1>
+    </div>
+    <div class="main">
+        <div>cartvalue=</div>
+        <div class="cartvalue">0</div>
+        <button class="del" onclick="delcart()">delete</button>
+        
+    </div>
+    <button class="collapse" onclick="opennav()">OPEN</button>
+    <div class="close">
+        <a href="javascript:void(0)" class="closebtn" onclick="closenav()">x</a>
+    </div>
+    
+    <div id="sidebar" class="sidenav">
+        
+        <div class="drop">dropdown
+            <div class="contents">
+                <a href="#">op1</a>
+                <a href="#">op2</a>
+                <a href="#">op3</a>
+                <a href="#">op4</a>
+            </div>
+        </div>
+        <div>home</div>
+        <div>about</div>
+        <div>contact</div>
+    </div>
+    <div class="productsdisp">
+        <div class="laserimg"><img src="https://m.media-amazon.com/images/I/51cU2Ui2wlL._SX569_.jpg" alt="laserlight">
+            <h4>laser light</h4>
+                <button class="cart" onclick="updatecart()">add to cart</button>
+                <button class="buy">buy now.!</button>
+           
+           
+        </div>
+        <div class="lube"><img src="thumbnalis/lube.webp" alt="lube">
+            <h4>chain lube</h4><a href="#" >
+                <button class="cart" onclick="updatecart()">add to cart</button>
+                <button class="buy">buy now.!</button>
+            </a>
+           </div>
+        <div class="multmeter"><img src="https://m.media-amazon.com/images/I/81unUTBUr6L._SX342_.jpg" alt="lube">
+            <h4>multmeter</h4><a href="https://www.amazon.in/Amazon-Basics-Pointer-Battery-Included/dp/B0BSTTTP6X/ref=sr_1_3?keywords=laser&sr=8-3" >
+                <button class="cart" onclick="updatecart()">add to cart</button>
+                <button class="buy">buy now.!</button>
+            </a>
+           </div>
+        <div class="pendrive"><img src="https://m.media-amazon.com/images/I/214I7w+P7LL._SX300_SY300_.jpg" alt="pd">
+            <h4>pendrive</h4><a href="https://www.amazon.in/Amazon-Basics-Pointer-Battery-Included/dp/B0BSTTTP6X/ref=sr_1_3?keywords=laser&sr=8-3" >
+                <button class="cart">add to cart</button>
+                <button class="buy">buy now.!</button>
+            </a>
+           </div>
+        <div class="pista"><img src="https://m.media-amazon.com/images/I/41r5yrIoLPL._SX300_SY300_QL70_FMwebp_.jpg" alt="lube">
+            <h4>pista</h4><a href="https://www.amazon.in/Amazon-Basics-Pointer-Battery-Included/dp/B0BSTTTP6X/ref=sr_1_3?keywords=laser&sr=8-3" >
+                <button class="cart">add to cart</button>
+                <button class="buy">buy now.!</button>
+            </a>
+           </div>
+        <div class="shoe"><img src="https://m.media-amazon.com/images/I/61utX8kBDlL._SY500_.jpg" alt="lube">
+            <h4>shoe</h4><a href="https://www.amazon.in/Amazon-Basics-Pointer-Battery-Included/dp/B0BSTTTP6X/ref=sr_1_3?keywords=laser&sr=8-3" >
+                <button class="cart">add to cart</button>
+                <button class="buy">buy now.!</button>
+            </a>
+        </div>
+        <div class="moon"><img src="https://m.media-amazon.com/images/I/71KL57J0MvS._SX466_.jpg" alt="lube">
+            <h4>moon light</h4><a href="https://www.amazon.in/Amazon-Basics-Pointer-Battery-Included/dp/B0BSTTTP6X/ref=sr_1_3?keywords=laser&sr=8-3" >
+                <button class="cart">add to cart</button>
+                <button class="buy">buy now.!</button>
+            </a>
+        </div>
+        <div class="footbal"><img src="https://m.media-amazon.com/images/I/413t41aFpJL._SX300_SY300_QL70_FMwebp_.jpg" alt="lube">
+            <h4>footbalt</h4><a href="https://www.amazon.in/Amazon-Basics-Pointer-Battery-Included/dp/B0BSTTTP6X/ref=sr_1_3?keywords=laser&sr=8-3" >
+                <button class="cart">add to cart</button>
+                <button class="buy">buy now.!</button>
+            </a>
+        </div>
+        <div class="jwell"><img src="https://m.media-amazon.com/images/I/617BH0hUF1L._SY535_.jpg" alt="lube">
+            <h4>jwellery</h4><a href="https://www.amazon.in/Amazon-Basics-Pointer-Battery-Included/dp/B0BSTTTP6X/ref=sr_1_3?keywords=laser&sr=8-3" >
+                <button class="cart">add to cart</button>
+                <button class="buy">buy now.!</button>
+            </a>
+        </div>
+
+    </div>
+    <script src="func.js"></script>
+</body>
+</html>
